@@ -1,0 +1,4 @@
+﻿(i) gamma0 = 41.40655975304113  sampled min angle = 41.40655975360342  (should be >= gamma0 up to 1e-6)
+(i) random disjoint-square triples: min angle seen = 180  violations = 0
+r=0.5000001  bound=5  found=4 at phi=0.0 deg  verified=True  (193s)
+r=0.5010000  bound=5  found=4 at phi=0.0 deg  verified=True  (348s)

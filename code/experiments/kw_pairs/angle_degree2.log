@@ -1,0 +1,7 @@
+(i) gamma0 = 41.406560 deg; 3459 disjoint neighbour pairs at gap<d tested; min angle = 46.475674; violations = 0
+(ii) r=0.5500 bound=4 grid-chain=3  (114s)
+(ii) r=0.6000 bound=3 grid-chain=3  (127s)
+(ii) r=0.7071 bound=3 grid-chain=2  (132s)
+(ii) r=0.7500 bound=3 grid-chain=2  (138s)
+(ii) r=0.8000 bound=2 grid-chain=2  (141s)
+(ii) r=0.8660 bound=2 grid-chain=2  (144s)

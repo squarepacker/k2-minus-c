@@ -1,0 +1,38 @@
+{
+ "gamma0": 41.40655975304113,
+ "min_angle": 46.47567414804689,
+ "n_checked": 3459,
+ "viol": 0,
+ "degree": [
+  {
+   "r": 0.55,
+   "bound": 4,
+   "grid_chain": 3
+  },
+  {
+   "r": 0.6,
+   "bound": 3,
+   "grid_chain": 3
+  },
+  {
+   "r": 0.7071,
+   "bound": 3,
+   "grid_chain": 2
+  },
+  {
+   "r": 0.75,
+   "bound": 3,
+   "grid_chain": 2
+  },
+  {
+   "r": 0.8,
+   "bound": 2,
+   "grid_chain": 2
+  },
+  {
+   "r": 0.866,
+   "bound": 2,
+   "grid_chain": 2
+  }
+ ]
+}

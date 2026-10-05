@@ -1,0 +1,28 @@
+# Reviews (all by independent AI reviewers; no human referee yet)
+
+Each reviewer worked from the manuscript and the original sources, without seeing the author's conclusions, and wrote its own code for every computation. "Minor" items were wording, notation or missing justifications; all were addressed unless noted.
+
+| Version | Review | Scope | Verdict |
+|---|---|---|---|
+| v7 (κ = 0.019) | Mathematics, Sections 1–4 | Line-by-line; all constants recomputed at 50 digits; 53,596 random tests of Prop. 4.5(e) | No fatal error, no serious gap; 13 minor items |
+| v7 | Mathematics, Sections 5–7 | Line-by-line; constants at 50 digits; ~61,000 Monte Carlo tests of the crack lemma | No fatal error, no serious gap; 13 minor items |
+| v7 | Adversarial numerical tests | Crack lemma (~220,000 tests; worst case 1.000 against the allowed 2.01), room-in-a-column lemma (ratio at most 0.909), Prop. 4.5 (minimum 0.33334), counting lemma, short chords, quantization | No counterexample |
+| v7 | Literature | All references against Crossref / publishers / originals; Oler and Folkman–Graham statements; novelty search | No factual error; attribution and DOIs improved |
+| v7 | Roth–Vaughan (1978) | Original article: theorem, fundamental lemma, c = 10^-10, m ≤ 20, strip width 1/(4m+1), area (4m+1)^-2 tan(θ/2m) | All statements in the paper match the original |
+| v8 (κ = 0.026) | Mathematics (changes) | New Lemma 4.9 (multiplicity at uncovered points, K_w = 14), new parameters | No fatal error, no serious gap; 7 minor items |
+| v8 | Adversarial numerical tests of Lemma 4.9 | Structured constructions, jamming, annealing | No counterexample; a degenerate configuration with 9 overlapping rectangles at an uncovered point was found (verified at 80 digits) |
+| v8 | Literature (changes) | New citations (including the unrefereed announcement of s(k²−4) = k for k ≥ 5), DOIs, novelty | No factual error; 3 optional suggestions adopted |
+| v9 (κ = 0.027) | Mathematics (changes) | Lemma 4.9(c) (K_w = 13), constants, remarks | No fatal error, no serious gap; 8 minor items |
+| v9 | Adversarial numerical tests of Lemma 4.9(c) | Angle facts, finite enumeration (reproduced), searches in the disc and square models | No counterexample; nothing above 9 found |
+| v9 | Literature (changes v8→v9) | Changed passages only; recent repositories and arXiv checked | No factual error; 2 optional wording suggestions adopted |
+| v10 (κ = 0.033) | Mathematics, Lemma 4.10 | Reduction to the bound U(I) (at most 5 centres; all side pairs on one side; U(I) bounds the true count), conservativeness of the programs, coverage logic, remaining changes | Reduction proved. The original reason for "one side" was false near corners and was replaced by a correct argument. The reviewer independently found the gap in the first verifier (see below). Independent tests: no violation. The configuration with 9 pairs was rebuilt with actual squares at 60 digits |
+| v10 | Literature (draft of the changes) | Changed passages; Arb/FLINT/python-flint against official pages | Passed with changes: citations added, sharpness wording restricted, a statement that κ = 0.027 holds without the computer, rigour/reproducibility paragraph. It also pointed out that the floating-point direction cells do not tile the circle. The first verifier was therefore withdrawn and all 78,673 boxes were re-verified with `verify_leaves2.py` |
+| v10 | Adversarial numerical tests of Lemma 4.10 | Own code throughout. True square model: perturbations of the 9-configuration (2,180) and random contact growth with sides and corners (13,246 configurations). Certificate: ~92 million points sampled in 30,823 accepted boxes; global search (70,351 configurations). Coverage: 300,000 boundary and face points. Reduction checks on all square configurations | No counterexample. The maximum found was 9 (the known degenerate configuration); generic searches reach 5–6. The certificate was consistent at every sampled point, and the coverage had no gap. 3 minor documentation items, addressed |
+| v10 | Coverage, independent program | Written without the author's coverage program. Exact rational volumes of the boxes intersected with the sorted-angle region, pairwise interior-disjointness, completeness of the task slices; 3.33 million located points; deliberately damaged box lists detected | Covered: no gap in any of the 13 runs |
+| v10 | Mathematics (final changes) | Every changed passage against v9; constants of Sections 5–6 recomputed at 50 digits; counts in the text against the result files | Pass: no critical or major findings; 4 minor and 3 wording items, addressed |
+| v10 | Literature (final text) | All earlier findings, passages changed afterwards, three new bibliography entries against official pages | Passed with changes: no critical or major findings; minor and wording items addressed (location of the material, versions, wording of the side argument and of the greedy count, licence of the data, bibliography order) |
+| v9, v10 | Blank-slate review of v9 (one AI reviewer, without access to earlier reviews) | Whole proof line by line; 151 constants recomputed; searches for counterexamples; literature | No critical or major findings; 9 minor items, all addressed where applicable to v10 (Roth–Vaughan page numbers, "within this scheme", definition of R_e, search programs included, metadata) |
+
+All numerical constants of v10 are recomputed by `code/verify_v10.py` (132 checks), which also checks that the computation of Lemma 4.10 is complete.
+
+Limitations: all reviewers are AI systems of the same family and may share blind spots; numerical searches find degenerate configurations poorly; the manuscript has not been refereed by a human expert.
