@@ -1,0 +1,77 @@
+{
+ "file": "bnbw_n5_T9_0of1_final_leaves.jsonl",
+ "wall": true,
+ "n": 5,
+ "task": 0,
+ "ntask": 1,
+ "boxes": 26014,
+ "kinds": {
+  "inf": 25990,
+  "nowall": 24
+ },
+ "dims": [
+  "r1",
+  "r2",
+  "r3",
+  "r4",
+  "r5",
+  "t1",
+  "t2",
+  "t3",
+  "t4",
+  "t5",
+  "h"
+ ],
+ "format_problems": [],
+ "boxes_outside_bounds": [],
+ "n_outside_bounds": 0,
+ "n_zero_or_negative_width": 0,
+ "n_not_in_a_task_slice": 0,
+ "slices": [
+  [
+   0.0,
+   1.5707963267948966
+  ],
+  [
+   1.5707963267948966,
+   3.141592653589793
+  ],
+  [
+   3.141592653589793,
+   4.71238898038469
+  ],
+  [
+   4.71238898038469,
+   6.283185307179586
+  ]
+ ],
+ "n_boxes_without_sorted_point": 0,
+ "max_theta_hi": 6.283185307179586,
+ "n_boxes_touching_2pi_f": 14442,
+ "n_interior_overlapping_pairs(first50)": 0,
+ "overlap_examples": [],
+ "n_boxes_zero_sorted_volume": 19706,
+ "domain_volume": 0.37958147059925446,
+ "sum_box_sorted_volume": 0.37958147059925446,
+ "volume_exact_equal": true,
+ "volume_difference_exact": "0",
+ "volume_rel_diff": 0.0,
+ "volume_fraction_by_kind": {
+  "inf": 0.999987930059433,
+  "nowall": 1.2069940567016595e-05
+ },
+ "methodA_pass": true,
+ "methodB_points_tested": 278368,
+ "methodB_by_family": {
+  "uniform": 40000,
+  "in-slice": 40000,
+  "ties": 40000,
+  "slice-endpoints": 40000,
+  "domain-boundary": 40000,
+  "box-endpoint-grid": 40000,
+  "ulp-nudged-corners": 11375,
+  "ulp-across-face": 26993
+ },
+ "methodB_uncovered": [],
+ "seconds": 228.3
+}

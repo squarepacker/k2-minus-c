@@ -1,6 +1,6 @@
 # For every fixed c, s(k²−c) = k for all large k — with an explicit constant
 
-Preprint and verification programs by Sungjoon Ryu (2026). Version 1.0.
+Preprint and verification programs by Sungjoon Ryu (2026). Version 1.1.
 
 **Main result.** For every fixed c ≥ 0 one has s(k²−c) = k for all sufficiently large integers k, where s(n) is the side of the smallest square containing n non-overlapping unit squares. Equivalently, if M(k) is the largest number of unit squares that fit in [0,k]² pairwise disjoint as closed sets, then k² − M(k) → ∞. The constant is explicit:
 
@@ -22,9 +22,10 @@ So c*(k) := max{c : s(k²−c) = k} → ∞. Whether c*(k) → ∞ was recorded 
 - **Disc model.** The lemma reduces to bounding U(I) = E_II + W_I + Σ D_i*(I) over all configurations I of at most 5 centres near the uncovered point, without a side and with one side.
 - **Branch-and-bound.** A floating-point search (`bnb.py`, `bnb_wall.py`) found a cover of the parameter domain by 78,673 accepted boxes. Every box is either infeasible, has no possible side pair, or has bound ≤ 9.
 - **Rigorous re-verification.** Every accepted box was re-verified in Arb ball arithmetic through python-flint (`verify_leaves2.py`), with 59,238 further bisections. There were 0 failures, and the largest rigorous bound was 9.
-- **Coverage check.** A separate program (`coverage_check.py`) rebuilds the bisection tree and checks, with exact rational volumes, that the accepted boxes leave no gap.
+- **Coverage check.** A separate program (`coverage_check.py`) rebuilds the bisection tree and checks, with exact rational volumes, that the accepted boxes leave no gap. It reuses the bisection rule of the search, so it is not independent of it.
+- **Independent coverage checks.** Two further programs, written independently of the search by different methods, confirm that the accepted boxes leave no gap: an exact-volume check and a recursive covering check (`code/coverage_independent/`, with results and a README).
 - **Superseded verifier.** An earlier verifier (`verify_leaves.py` used alone, and `verify_edge.py`) did not cover one-ulp gaps between floating-point direction cells. It is superseded (see `code/SUPERSEDED.md`). The certificate is the output of `verify_leaves2.py`.
-- **Not independently reproduced.** The computation has not been reproduced by an independent implementation.
+- **What is independently reproduced.** The coverage (no gap) is confirmed by the two independent checks above. The verification of the individual boxes (the Arb re-verification) has not yet been reproduced by an independent implementation.
 
 ## Contents
 
@@ -40,6 +41,7 @@ So c*(k) := max{c : s(k²−c) = k} → ∞. Whether c*(k) → ∞ was recorded 
 | `code/coverage_check.py`, `code/make_stats_v10.py`, `code/run_seq.py`, `code/run_v2.py` | Coverage check, statistics, job runners |
 | `code/check_hand9_indep.py`, `code/attack_kw/hand9.json` | The configuration with 9 pairs (sharpness) and its check in 80-digit arithmetic |
 | `code/SUPERSEDED.md` | Note on the superseded first verifier |
+| `code/coverage_independent/` | Two independent checks that the accepted boxes of Lemma 4.10 cover the parameter domain (exact volumes; recursive covering), with results; see its README |
 | `code/experiments/` | Search programs and stored results behind the numerical experiments of Remark 7.5 (not part of the proof); see `code/experiments/README.md` |
 | `data/kw9_data.zip` | Accepted boxes of the final runs, verification and coverage results, logs |
 | `reviews/REVIEWS.md` | Summary of the independent (AI) reviews |
@@ -65,6 +67,12 @@ python verify_v10.py
 
 The full re-verification of all boxes took about 1.7 hours on 4 cores.
 
+## Changes in version 1.1
+
+- Added `code/coverage_independent/`: two independent coverage checks for Lemma 4.10, with their results.
+- One sentence in the proof of Lemma 4.10 (and the corresponding line above) now states precisely what has been independently reproduced: the coverage, by two independent checks; not yet the verification of the individual boxes.
+- `SHA256SUMS` now covers every file except `README.md` and `.zenodo.json` (metadata that may be edited on the GitHub web page). The mathematics is unchanged.
+
 ## Status and use of AI
 
 Developed with extensive assistance from Claude (Anthropic), including the proofs, the text, the programs and the computation for Lemma 4.10; the author takes full responsibility. Not peer reviewed. Comments and corrections are welcome (please open an issue).
@@ -78,6 +86,6 @@ Developed with extensive assistance from Claude (Anthropic), including the proof
 
 ## How to cite
 
-Ryu, Sungjoon. *Packing k²−c unit squares: s(k²−c) = k for all large k.* Preprint, version 1.0, 2026. DOI (v1.0): https://doi.org/10.5281/zenodo.23164302
+Ryu, Sungjoon. *Packing k²−c unit squares: s(k²−c) = k for all large k.* Preprint, version 1.1, 2026. DOI (v1.1): added after the release. DOI (v1.0): https://doi.org/10.5281/zenodo.23164302
 
 DOI (all versions, always the latest): https://doi.org/10.5281/zenodo.23164301

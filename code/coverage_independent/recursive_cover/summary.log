@@ -1,0 +1,16 @@
+﻿wall=False n=1: units 1/1 complete=True leaves=1 kinds={'closed': 1} gaps=0 nodes=1 contained=1 unordered=0 maxdepth=0 max_sec=0.0
+wall=False n=2: units 32/32 complete=True leaves=48 kinds={'inf': 6, 'closed': 42} gaps=0 nodes=256 contained=144 unordered=0 maxdepth=4 max_sec=0.0
+wall=False n=3: units 32/32 complete=True leaves=1894 kinds={'inf': 933, 'closed': 961} gaps=0 nodes=34154 contained=15066 unordered=2027 maxdepth=14 max_sec=0.03
+wall=False n=4: units 32/32 complete=True leaves=10291 kinds={'inf': 7838, 'closed': 2453} gaps=0 nodes=452548 contained=179559 unordered=46731 maxdepth=22 max_sec=0.94
+wall=False n=5: units 32/32 complete=True leaves=18131 kinds={'inf': 17491, 'closed': 640} gaps=0 nodes=1882560 contained=658490 unordered=282806 maxdepth=32 max_sec=24.85
+wall=True  n=1: units 1/1 complete=True leaves=4 kinds={'closed': 4} gaps=0 nodes=7 contained=4 unordered=0 maxdepth=2 max_sec=0.0
+wall=True  n=2: units 32/32 complete=True leaves=684 kinds={'inf': 248, 'closed': 368, 'nowall': 68} gaps=0 nodes=6564 contained=3086 unordered=212 maxdepth=10 max_sec=0.01
+wall=True  n=3: units 32/32 complete=True leaves=6382 kinds={'inf': 4967, 'nowall': 604, 'closed': 811} gaps=0 nodes=184162 contained=83820 unordered=8277 maxdepth=21 max_sec=0.94
+wall=True  n=4: units 32/32 complete=True leaves=15224 kinds={'inf': 14701, 'nowall': 398, 'closed': 125} gaps=0 nodes=899244 contained=380725 unordered=68913 maxdepth=28 max_sec=6.3
+wall=True  n=5: units 32/32 complete=True leaves=26014 kinds={'inf': 25990, 'nowall': 24} gaps=0 nodes=1109360 contained=427470 unordered=127226 maxdepth=27 max_sec=12.85
+rows 258 dup units: 0
+leaves no-side 30365 side 48308 total 78673
+TOTAL {'gaps': 0, 'nodes': 4568856, 'contained': 1748365, 'unordered': 536192}
+peak_private_MB max 25.1 peak_ws_MB max 31.8
+min available during run (MB): 1041
+ALL GAP-FREE

@@ -1,0 +1,40 @@
+{
+ "file": "bnb_n1_T9_0of1_final_leaves.jsonl",
+ "wall": false,
+ "n": 1,
+ "task": 0,
+ "ntask": 1,
+ "boxes": 1,
+ "kinds": {
+  "closed": 1
+ },
+ "dims": [
+  "r1"
+ ],
+ "format_problems": [],
+ "boxes_outside_bounds": [],
+ "n_outside_bounds": 0,
+ "n_zero_or_negative_width": 0,
+ "max_theta_hi": null,
+ "n_boxes_touching_2pi_f": 0,
+ "n_interior_overlapping_pairs(first50)": 0,
+ "overlap_examples": [],
+ "domain_volume": 0.36610705536685095,
+ "sum_box_sorted_volume": 0.36610705536685095,
+ "volume_exact_equal": true,
+ "volume_difference_exact": "0",
+ "volume_rel_diff": 0.0,
+ "volume_fraction_by_kind": {
+  "closed": 1.0
+ },
+ "methodA_pass": true,
+ "methodB_points_tested": 146582,
+ "methodB_by_family": {
+  "uniform": 40000,
+  "domain-boundary": 40000,
+  "box-endpoint-grid": 40000,
+  "ulp-nudged-corners": 26582
+ },
+ "methodB_uncovered": [],
+ "seconds": 0.3
+}

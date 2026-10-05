@@ -1,0 +1,7 @@
+﻿[limits] profile=v3 priority=Normal:True affinity=0xFFF:True memcap=1536MB:True
+SELFTEST(lowmem) start, avail 1981 MB
+{"wall": false, "n": 2, "leaves": 48, "base_gaps": 0, "base_nodes": 123, "removed_leaf_gaps": [1, 1, 1, 1, 1], "shrunk_leaf_gaps": [1, 1, 1, 1, 1], "ok": true}
+{"wall": false, "n": 3, "leaves": 1894, "base_gaps": 0, "base_nodes": 32699, "removed_leaf_gaps": [7, 29, 8, 2, 11], "shrunk_leaf_gaps": [2, 10, 8, 2, 11], "ok": true}
+{"wall": true, "n": 2, "leaves": 684, "base_gaps": 0, "base_nodes": 3363, "removed_leaf_gaps": [8, 1, 2, 1, 8], "shrunk_leaf_gaps": [8, 1, 1, 1, 4], "ok": true}
+{"wall": true, "n": 3, "leaves": 6382, "base_gaps": 0, "base_nodes": 142341, "removed_leaf_gaps": [2, 28, 34, 4, 2], "shrunk_leaf_gaps": [1, 28, 6, 4, 1], "ok": true}
+SELFTEST PASS mem {'peak_ws': 23.9, 'peak_private': 17.0, 'private': 17.0}

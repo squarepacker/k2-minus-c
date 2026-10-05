@@ -20,7 +20,7 @@
 
 \title[Unbounded deficiency for unit squares at integer side]{Packing $k^2-c$ unit squares: \\ $s(k^2-c)=k$ for all large $k$}
 \author{Sungjoon Ryu}
-\date{Preprint, 5 October 2026}
+\date{Preprint, version 1.1, 5 October 2026}
 
 \raggedbottom
 \begin{document}
@@ -741,8 +741,10 @@ in the re-verification the conditions themselves are evaluated with the exact co
 as end points of the initial boxes.
 The programs, the lists of accepted boxes and the logs are part of the accompanying material, available at
 \url{https://github.com/squarepacker/k2-minus-c} and archived on Zenodo; they were run with Python~3.12.10,
-\texttt{python-flint}~0.9.0, NumPy~2.5.3 and mpmath~1.4.1. The computation has not been reproduced by an independent
-implementation.
+\texttt{python-flint}~0.9.0, NumPy~2.5.3 and mpmath~1.4.1. That the accepted boxes leave no gap has also been confirmed by two independent checks
+that use different methods (exact rational volumes of the boxes intersected with the region of ordered angles, and a recursive
+covering of the domain); the verification of the individual boxes (the Arb re-verification) has not yet been reproduced by an
+independent implementation.
 \end{proof}
 
 \begin{remark}

@@ -1,0 +1,293 @@
+=== launch 1 at 23:00:02 avail=1061
+[limits] profile=v3 priority=Normal:True affinity=0xFFF:True memcap=1536MB:True
+start: avail 1044 MB, floor 1024.0 MB, slabs 32
+[    0.0s] wall=False n=1 slab 1/1: leaves 1/1 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1044MB peak_private=8.9MB
+[    0.0s] wall=False n=2 slab 1/32: leaves 1/48 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1044MB peak_private=8.9MB
+[    0.0s] wall=False n=2 slab 2/32: leaves 1/48 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1044MB peak_private=8.9MB
+[    0.0s] wall=False n=2 slab 3/32: leaves 1/48 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1044MB peak_private=8.9MB
+[    0.0s] wall=False n=2 slab 4/32: leaves 1/48 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1044MB peak_private=8.9MB
+[    0.0s] wall=False n=2 slab 5/32: leaves 4/48 gaps=0 nodes=9 contained=5 unordered=0 min_avail=1044MB peak_private=8.9MB
+[    0.0s] wall=False n=2 slab 6/32: leaves 4/48 gaps=0 nodes=9 contained=5 unordered=0 min_avail=1044MB peak_private=8.9MB
+[    0.0s] wall=False n=2 slab 7/32: leaves 4/48 gaps=0 nodes=9 contained=5 unordered=0 min_avail=1044MB peak_private=8.9MB
+[    0.0s] wall=False n=2 slab 8/32: leaves 4/48 gaps=0 nodes=9 contained=5 unordered=0 min_avail=1044MB peak_private=8.9MB
+[    0.0s] wall=False n=2 slab 9/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=8.9MB
+[    0.0s] wall=False n=2 slab 10/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 11/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 12/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 13/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 14/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 15/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 16/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 17/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 18/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 19/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 20/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 21/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 22/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 23/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 24/32: leaves 6/48 gaps=0 nodes=11 contained=6 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 25/32: leaves 4/48 gaps=0 nodes=9 contained=5 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 26/32: leaves 4/48 gaps=0 nodes=9 contained=5 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 27/32: leaves 4/48 gaps=0 nodes=9 contained=5 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 28/32: leaves 4/48 gaps=0 nodes=9 contained=5 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 29/32: leaves 1/48 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 30/32: leaves 1/48 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 31/32: leaves 1/48 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=2 slab 32/32: leaves 1/48 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.0s] wall=False n=3 slab 1/32: leaves 1/1894 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1043MB peak_private=9.0MB
+[    0.0s] wall=False n=3 slab 2/32: leaves 1/1894 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1043MB peak_private=9.0MB
+[    0.1s] wall=False n=3 slab 3/32: leaves 1/1894 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1043MB peak_private=9.0MB
+[    0.1s] wall=False n=3 slab 4/32: leaves 1/1894 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1043MB peak_private=9.0MB
+[    0.1s] wall=False n=3 slab 5/32: leaves 123/1894 gaps=0 nodes=505 contained=253 unordered=0 min_avail=1044MB peak_private=9.0MB
+[    0.1s] wall=False n=3 slab 6/32: leaves 123/1894 gaps=0 nodes=505 contained=238 unordered=15 min_avail=1044MB peak_private=9.0MB
+[    0.1s] wall=False n=3 slab 7/32: leaves 207/1894 gaps=0 nodes=2259 contained=1077 unordered=53 min_avail=1044MB peak_private=9.1MB
+[    0.2s] wall=False n=3 slab 8/32: leaves 207/1894 gaps=0 nodes=2259 contained=1077 unordered=53 min_avail=1044MB peak_private=9.1MB
+[    0.2s] wall=False n=3 slab 9/32: leaves 307/1894 gaps=0 nodes=2739 contained=1285 unordered=85 min_avail=1044MB peak_private=9.1MB
+[    0.2s] wall=False n=3 slab 10/32: leaves 307/1894 gaps=0 nodes=2569 contained=1150 unordered=135 min_avail=1044MB peak_private=9.2MB
+[    0.2s] wall=False n=3 slab 11/32: leaves 351/1894 gaps=0 nodes=3409 contained=1518 unordered=187 min_avail=1044MB peak_private=9.2MB
+[    0.3s] wall=False n=3 slab 12/32: leaves 351/1894 gaps=0 nodes=3409 contained=1518 unordered=187 min_avail=1044MB peak_private=9.2MB
+[    0.3s] wall=False n=3 slab 13/32: leaves 342/1894 gaps=0 nodes=3725 contained=1652 unordered=211 min_avail=1044MB peak_private=9.3MB
+[    0.4s] wall=False n=3 slab 14/32: leaves 339/1894 gaps=0 nodes=3719 contained=1510 unordered=350 min_avail=1044MB peak_private=9.3MB
+[    0.4s] wall=False n=3 slab 15/32: leaves 217/1894 gaps=0 nodes=2735 contained=1191 unordered=177 min_avail=1044MB peak_private=9.3MB
+[    0.4s] wall=False n=3 slab 16/32: leaves 215/1894 gaps=0 nodes=2639 contained=1149 unordered=171 min_avail=1044MB peak_private=9.4MB
+[    0.4s] wall=False n=3 slab 17/32: leaves 126/1894 gaps=0 nodes=747 contained=321 unordered=53 min_avail=1048MB peak_private=9.4MB
+[    0.4s] wall=False n=3 slab 18/32: leaves 126/1894 gaps=0 nodes=641 contained=268 unordered=53 min_avail=1048MB peak_private=9.5MB
+[    0.5s] wall=False n=3 slab 19/32: leaves 89/1894 gaps=0 nodes=475 contained=194 unordered=44 min_avail=1048MB peak_private=9.5MB
+[    0.5s] wall=False n=3 slab 20/32: leaves 89/1894 gaps=0 nodes=475 contained=194 unordered=44 min_avail=1048MB peak_private=9.5MB
+[    0.5s] wall=False n=3 slab 21/32: leaves 62/1894 gaps=0 nodes=351 contained=141 unordered=35 min_avail=1048MB peak_private=9.5MB
+[    0.5s] wall=False n=3 slab 22/32: leaves 62/1894 gaps=0 nodes=351 contained=116 unordered=60 min_avail=1048MB peak_private=9.5MB
+[    0.5s] wall=False n=3 slab 23/32: leaves 33/1894 gaps=0 nodes=153 contained=57 unordered=20 min_avail=1048MB peak_private=9.5MB
+[    0.5s] wall=False n=3 slab 24/32: leaves 33/1894 gaps=0 nodes=153 contained=57 unordered=20 min_avail=1048MB peak_private=9.5MB
+[    0.5s] wall=False n=3 slab 25/32: leaves 26/1894 gaps=0 nodes=109 contained=39 unordered=16 min_avail=1048MB peak_private=9.5MB
+[    0.5s] wall=False n=3 slab 26/32: leaves 26/1894 gaps=0 nodes=109 contained=23 unordered=32 min_avail=1048MB peak_private=9.5MB
+[    0.5s] wall=False n=3 slab 27/32: leaves 14/1894 gaps=0 nodes=55 contained=15 unordered=13 min_avail=1048MB peak_private=9.5MB
+[    0.6s] wall=False n=3 slab 28/32: leaves 14/1894 gaps=0 nodes=55 contained=15 unordered=13 min_avail=1049MB peak_private=9.5MB
+[    0.6s] wall=False n=3 slab 29/32: leaves 1/1894 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1051MB peak_private=9.5MB
+[    0.6s] wall=False n=3 slab 30/32: leaves 1/1894 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1053MB peak_private=9.5MB
+[    0.6s] wall=False n=3 slab 31/32: leaves 1/1894 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1055MB peak_private=9.5MB
+[    0.6s] wall=False n=3 slab 32/32: leaves 1/1894 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1056MB peak_private=9.5MB
+[    0.7s] wall=False n=4 slab 1/32: leaves 1/10291 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1051MB peak_private=9.5MB
+[    0.7s] wall=False n=4 slab 2/32: leaves 1/10291 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1049MB peak_private=9.5MB
+[    0.8s] wall=False n=4 slab 3/32: leaves 1/10291 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1052MB peak_private=9.5MB
+[    0.9s] wall=False n=4 slab 4/32: leaves 1/10291 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1052MB peak_private=9.5MB
+[    1.0s] wall=False n=4 slab 5/32: leaves 690/10291 gaps=0 nodes=3647 contained=1548 unordered=276 min_avail=1053MB peak_private=9.5MB
+[    1.1s] wall=False n=4 slab 6/32: leaves 690/10291 gaps=0 nodes=3593 contained=1512 unordered=285 min_avail=1054MB peak_private=9.7MB
+STOPPED: available memory 985 MB < floor 1024.0 MB (finished slabs saved)
+=== exit 3 at 23:00:04
+=== launch 2 at 23:04:48 avail=1228
+[limits] profile=v3 priority=Normal:True affinity=0xFFF:True memcap=1536MB:True
+start: avail 1233 MB, floor 1024.0 MB, slabs 32
+[    0.7s] wall=False n=4 slab 7/32: leaves 3270/10291 gaps=0 nodes=66893 contained=28044 unordered=5403 min_avail=1229MB peak_private=10.0MB
+[    1.5s] wall=False n=4 slab 8/32: leaves 3249/10291 gaps=0 nodes=67053 contained=28065 unordered=5462 min_avail=1242MB peak_private=10.5MB
+[    2.3s] wall=False n=4 slab 9/32: leaves 2422/10291 gaps=0 nodes=72393 contained=29459 unordered=6738 min_avail=1162MB peak_private=10.8MB
+[    3.1s] wall=False n=4 slab 10/32: leaves 2423/10291 gaps=0 nodes=67715 contained=26996 unordered=6862 min_avail=1154MB peak_private=11.2MB
+[    4.2s] wall=False n=4 slab 11/32: leaves 1517/10291 gaps=0 nodes=38921 contained=14980 unordered=4481 min_avail=1166MB peak_private=11.2MB
+[    4.9s] wall=False n=4 slab 12/32: leaves 1516/10291 gaps=0 nodes=38883 contained=14964 unordered=4478 min_avail=1052MB peak_private=11.3MB
+STOPPED: available memory 1005 MB < floor 1024.0 MB (finished slabs saved)
+=== exit 3 at 23:04:54
+=== launch 3 at 23:07:47 avail=1110
+[limits] profile=v3 priority=Normal:True affinity=0xFFF:True memcap=1536MB:True
+start: avail 1104 MB, floor 1024.0 MB, slabs 32
+[    0.4s] wall=False n=4 slab 13/32: leaves 1008/10291 gaps=0 nodes=34491 contained=13017 unordered=4229 min_avail=1103MB peak_private=9.2MB
+[    0.7s] wall=False n=4 slab 14/32: leaves 1008/10291 gaps=0 nodes=32505 contained=12150 unordered=4103 min_avail=1102MB peak_private=9.4MB
+[    0.8s] wall=False n=4 slab 15/32: leaves 412/10291 gaps=0 nodes=7241 contained=2533 unordered=1088 min_avail=1100MB peak_private=9.4MB
+[    0.9s] wall=False n=4 slab 16/32: leaves 412/10291 gaps=0 nodes=7241 contained=2533 unordered=1088 min_avail=1098MB peak_private=9.4MB
+[    1.0s] wall=False n=4 slab 17/32: leaves 239/10291 gaps=0 nodes=4969 contained=1551 unordered=934 min_avail=1099MB peak_private=9.4MB
+[    1.1s] wall=False n=4 slab 18/32: leaves 239/10291 gaps=0 nodes=3627 contained=1203 unordered=611 min_avail=1099MB peak_private=9.5MB
+[    1.2s] wall=False n=4 slab 19/32: leaves 88/10291 gaps=0 nodes=967 contained=301 unordered=183 min_avail=1099MB peak_private=9.5MB
+[    1.3s] wall=False n=4 slab 20/32: leaves 88/10291 gaps=0 nodes=967 contained=301 unordered=183 min_avail=1099MB peak_private=9.5MB
+[    1.3s] wall=False n=4 slab 21/32: leaves 74/10291 gaps=0 nodes=365 contained=114 unordered=69 min_avail=1099MB peak_private=9.5MB
+[    1.4s] wall=False n=4 slab 22/32: leaves 74/10291 gaps=0 nodes=287 contained=82 unordered=62 min_avail=1099MB peak_private=9.5MB
+[    1.4s] wall=False n=4 slab 23/32: leaves 47/10291 gaps=0 nodes=203 contained=57 unordered=45 min_avail=1099MB peak_private=9.5MB
+[    1.5s] wall=False n=4 slab 24/32: leaves 47/10291 gaps=0 nodes=203 contained=57 unordered=45 min_avail=1099MB peak_private=9.5MB
+[    1.6s] wall=False n=4 slab 25/32: leaves 40/10291 gaps=0 nodes=181 contained=51 unordered=40 min_avail=1099MB peak_private=9.5MB
+[    1.6s] wall=False n=4 slab 26/32: leaves 40/10291 gaps=0 nodes=125 contained=21 unordered=42 min_avail=1099MB peak_private=9.5MB
+[    1.7s] wall=False n=4 slab 27/32: leaves 10/10291 gaps=0 nodes=35 contained=6 unordered=12 min_avail=1099MB peak_private=9.5MB
+[    1.8s] wall=False n=4 slab 28/32: leaves 10/10291 gaps=0 nodes=35 contained=6 unordered=12 min_avail=1100MB peak_private=9.5MB
+[    1.8s] wall=False n=4 slab 29/32: leaves 1/10291 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1100MB peak_private=9.5MB
+[    1.9s] wall=False n=4 slab 30/32: leaves 1/10291 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1100MB peak_private=9.5MB
+[    1.9s] wall=False n=4 slab 31/32: leaves 1/10291 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1099MB peak_private=9.5MB
+[    2.0s] wall=False n=4 slab 32/32: leaves 1/10291 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1099MB peak_private=9.5MB
+[    2.1s] wall=False n=5 slab 1/32: leaves 1/18131 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1098MB peak_private=9.5MB
+[    2.3s] wall=False n=5 slab 2/32: leaves 1/18131 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1098MB peak_private=9.5MB
+[    2.4s] wall=False n=5 slab 3/32: leaves 1/18131 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1098MB peak_private=9.5MB
+[    2.5s] wall=False n=5 slab 4/32: leaves 1/18131 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1098MB peak_private=9.5MB
+[    3.1s] wall=False n=5 slab 5/32: leaves 2042/18131 gaps=0 nodes=27431 contained=9756 unordered=3960 min_avail=1097MB peak_private=10.1MB
+[    5.0s] wall=False n=5 slab 6/32: leaves 2042/18131 gaps=0 nodes=27179 contained=9639 unordered=3951 min_avail=1097MB peak_private=10.2MB
+STOPPED: available memory 981 MB < floor 1024.0 MB (finished slabs saved)
+=== exit 3 at 23:08:04
+=== launch 4 at 23:09:40 avail=1107
+[limits] profile=v3 priority=Normal:True affinity=0xFFF:True memcap=1536MB:True
+start: avail 1091 MB, floor 1024.0 MB, slabs 32
+[   25.0s] wall=False n=5 slab 7/32: leaves 7175/18131 gaps=0 nodes=816021 contained=294401 unordered=113610 min_avail=1041MB peak_private=11.3MB
+STOPPED: available memory 1017 MB < floor 1024.0 MB (finished slabs saved)
+=== exit 3 at 23:10:23
+=== launch 5 at 23:11:00 avail=1106
+[limits] profile=v3 priority=Normal:True affinity=0xFFF:True memcap=1536MB:True
+start: avail 1101 MB, floor 1024.0 MB, slabs 32
+STOPPED: available memory 1002 MB < floor 1024.0 MB (finished slabs saved)
+=== exit 3 at 23:11:09
+=== launch 6 at 23:14:34 avail=1129
+[limits] profile=v3 priority=Normal:True affinity=0xFFF:True memcap=1536MB:True
+start: avail 1124 MB, floor 1024.0 MB, slabs 32
+[   18.4s] wall=False n=5 slab 8/32: leaves 6638/18131 gaps=0 nodes=613741 contained=217959 unordered=88912 min_avail=1117MB peak_private=10.8MB
+[   22.8s] wall=False n=5 slab 9/32: leaves 3491/18131 gaps=0 nodes=101913 contained=33941 unordered=17016 min_avail=1506MB peak_private=11.6MB
+[   27.2s] wall=False n=5 slab 10/32: leaves 3491/18131 gaps=0 nodes=94121 contained=30581 unordered=16480 min_avail=1492MB peak_private=12.2MB
+[   29.4s] wall=False n=5 slab 11/32: leaves 1570/18131 gaps=0 nodes=57189 contained=18036 unordered=10559 min_avail=1357MB peak_private=12.2MB
+[   31.9s] wall=False n=5 slab 12/32: leaves 1570/18131 gaps=0 nodes=57189 contained=18036 unordered=10559 min_avail=1150MB peak_private=12.5MB
+[   33.4s] wall=False n=5 slab 13/32: leaves 1199/18131 gaps=0 nodes=31873 contained=9913 unordered=6024 min_avail=1165MB peak_private=12.5MB
+[   35.1s] wall=False n=5 slab 14/32: leaves 1199/18131 gaps=0 nodes=28853 contained=8789 unordered=5638 min_avail=1193MB peak_private=12.7MB
+[   36.0s] wall=False n=5 slab 15/32: leaves 587/18131 gaps=0 nodes=9389 contained=2682 unordered=2013 min_avail=1226MB peak_private=12.7MB
+[   36.8s] wall=False n=5 slab 16/32: leaves 587/18131 gaps=0 nodes=9389 contained=2682 unordered=2013 min_avail=1228MB peak_private=12.7MB
+[   37.3s] wall=False n=5 slab 17/32: leaves 487/18131 gaps=0 nodes=2689 contained=681 unordered=664 min_avail=1219MB peak_private=12.7MB
+[   37.9s] wall=False n=5 slab 18/32: leaves 487/18131 gaps=0 nodes=1399 contained=392 unordered=308 min_avail=1220MB peak_private=12.7MB
+[   38.4s] wall=False n=5 slab 19/32: leaves 182/18131 gaps=0 nodes=661 contained=174 unordered=157 min_avail=1220MB peak_private=12.7MB
+[   38.9s] wall=False n=5 slab 20/32: leaves 182/18131 gaps=0 nodes=661 contained=174 unordered=157 min_avail=1244MB peak_private=12.7MB
+[   39.4s] wall=False n=5 slab 21/32: leaves 190/18131 gaps=0 nodes=563 contained=147 unordered=135 min_avail=1266MB peak_private=12.7MB
+[   39.8s] wall=False n=5 slab 22/32: leaves 190/18131 gaps=0 nodes=425 contained=102 unordered=111 min_avail=1258MB peak_private=12.7MB
+[   40.3s] wall=False n=5 slab 23/32: leaves 109/18131 gaps=0 nodes=407 contained=97 unordered=107 min_avail=1249MB peak_private=12.7MB
+[   40.8s] wall=False n=5 slab 24/32: leaves 109/18131 gaps=0 nodes=407 contained=97 unordered=107 min_avail=1254MB peak_private=12.8MB
+[   41.3s] wall=False n=5 slab 25/32: leaves 125/18131 gaps=0 nodes=645 contained=154 unordered=169 min_avail=1243MB peak_private=12.8MB
+[   41.7s] wall=False n=5 slab 26/32: leaves 125/18131 gaps=0 nodes=305 contained=37 unordered=116 min_avail=1249MB peak_private=12.8MB
+[   42.2s] wall=False n=5 slab 27/32: leaves 24/18131 gaps=0 nodes=51 contained=6 unordered=20 min_avail=1247MB peak_private=12.8MB
+[   42.6s] wall=False n=5 slab 28/32: leaves 24/18131 gaps=0 nodes=51 contained=6 unordered=20 min_avail=1246MB peak_private=12.8MB
+[   43.1s] wall=False n=5 slab 29/32: leaves 1/18131 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1236MB peak_private=12.8MB
+[   43.5s] wall=False n=5 slab 30/32: leaves 1/18131 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1237MB peak_private=12.8MB
+[   43.9s] wall=False n=5 slab 31/32: leaves 1/18131 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1226MB peak_private=12.8MB
+[   44.4s] wall=False n=5 slab 32/32: leaves 1/18131 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1238MB peak_private=12.8MB
+[   44.4s] wall=True n=1 slab 1/1: leaves 4/4 gaps=0 nodes=7 contained=4 unordered=0 min_avail=1238MB peak_private=12.8MB
+[   44.4s] wall=True n=2 slab 1/32: leaves 115/684 gaps=0 nodes=403 contained=202 unordered=0 min_avail=1238MB peak_private=12.8MB
+[   44.4s] wall=True n=2 slab 2/32: leaves 115/684 gaps=0 nodes=403 contained=202 unordered=0 min_avail=1238MB peak_private=12.8MB
+[   44.5s] wall=True n=2 slab 3/32: leaves 114/684 gaps=0 nodes=407 contained=204 unordered=0 min_avail=1239MB peak_private=12.8MB
+[   44.5s] wall=True n=2 slab 4/32: leaves 114/684 gaps=0 nodes=407 contained=204 unordered=0 min_avail=1239MB peak_private=12.8MB
+[   44.5s] wall=True n=2 slab 5/32: leaves 126/684 gaps=0 nodes=441 contained=220 unordered=1 min_avail=1239MB peak_private=12.8MB
+[   44.5s] wall=True n=2 slab 6/32: leaves 126/684 gaps=0 nodes=413 contained=202 unordered=5 min_avail=1239MB peak_private=12.8MB
+[   44.6s] wall=True n=2 slab 7/32: leaves 105/684 gaps=0 nodes=385 contained=188 unordered=5 min_avail=1239MB peak_private=12.8MB
+[   44.6s] wall=True n=2 slab 8/32: leaves 105/684 gaps=0 nodes=385 contained=188 unordered=5 min_avail=1239MB peak_private=12.8MB
+[   44.6s] wall=True n=2 slab 9/32: leaves 91/684 gaps=0 nodes=357 contained=170 unordered=9 min_avail=1239MB peak_private=12.8MB
+[   44.6s] wall=True n=2 slab 10/32: leaves 91/684 gaps=0 nodes=295 contained=139 unordered=9 min_avail=1239MB peak_private=12.8MB
+[   44.7s] wall=True n=2 slab 11/32: leaves 87/684 gaps=0 nodes=295 contained=139 unordered=9 min_avail=1239MB peak_private=12.8MB
+[   44.7s] wall=True n=2 slab 12/32: leaves 87/684 gaps=0 nodes=295 contained=139 unordered=9 min_avail=1239MB peak_private=12.8MB
+[   44.7s] wall=True n=2 slab 13/32: leaves 69/684 gaps=0 nodes=277 contained=129 unordered=10 min_avail=1242MB peak_private=12.8MB
+[   44.7s] wall=True n=2 slab 14/32: leaves 69/684 gaps=0 nodes=249 contained=111 unordered=14 min_avail=1242MB peak_private=12.8MB
+[   44.7s] wall=True n=2 slab 15/32: leaves 58/684 gaps=0 nodes=261 contained=117 unordered=14 min_avail=1242MB peak_private=12.8MB
+[   44.8s] wall=True n=2 slab 16/32: leaves 58/684 gaps=0 nodes=261 contained=117 unordered=14 min_avail=1242MB peak_private=12.8MB
+[   44.8s] wall=True n=2 slab 17/32: leaves 47/684 gaps=0 nodes=241 contained=103 unordered=18 min_avail=1242MB peak_private=12.8MB
+[   44.8s] wall=True n=2 slab 18/32: leaves 47/684 gaps=0 nodes=169 contained=76 unordered=9 min_avail=1242MB peak_private=12.8MB
+[   44.8s] wall=True n=2 slab 19/32: leaves 34/684 gaps=0 nodes=163 contained=73 unordered=9 min_avail=1243MB peak_private=12.8MB
+[   44.8s] wall=True n=2 slab 20/32: leaves 34/684 gaps=0 nodes=163 contained=73 unordered=9 min_avail=1243MB peak_private=12.8MB
+[   44.9s] wall=True n=2 slab 21/32: leaves 7/684 gaps=0 nodes=19 contained=8 unordered=2 min_avail=1243MB peak_private=12.8MB
+[   44.9s] wall=True n=2 slab 22/32: leaves 7/684 gaps=0 nodes=19 contained=8 unordered=2 min_avail=1243MB peak_private=12.8MB
+[   44.9s] wall=True n=2 slab 23/32: leaves 7/684 gaps=0 nodes=19 contained=8 unordered=2 min_avail=1243MB peak_private=12.8MB
+[   44.9s] wall=True n=2 slab 24/32: leaves 7/684 gaps=0 nodes=19 contained=8 unordered=2 min_avail=1242MB peak_private=12.8MB
+[   44.9s] wall=True n=2 slab 25/32: leaves 6/684 gaps=0 nodes=19 contained=8 unordered=2 min_avail=1240MB peak_private=12.8MB
+[   44.9s] wall=True n=2 slab 26/32: leaves 6/684 gaps=0 nodes=15 contained=4 unordered=4 min_avail=1239MB peak_private=12.8MB
+[   44.9s] wall=True n=2 slab 27/32: leaves 6/684 gaps=0 nodes=15 contained=4 unordered=4 min_avail=1236MB peak_private=12.8MB
+[   45.0s] wall=True n=2 slab 28/32: leaves 6/684 gaps=0 nodes=15 contained=4 unordered=4 min_avail=1236MB peak_private=12.8MB
+[   45.0s] wall=True n=2 slab 29/32: leaves 9/684 gaps=0 nodes=43 contained=14 unordered=8 min_avail=1236MB peak_private=12.8MB
+[   45.0s] wall=True n=2 slab 30/32: leaves 9/684 gaps=0 nodes=37 contained=8 unordered=11 min_avail=1236MB peak_private=12.8MB
+[   45.0s] wall=True n=2 slab 31/32: leaves 9/684 gaps=0 nodes=37 contained=8 unordered=11 min_avail=1236MB peak_private=12.8MB
+[   45.0s] wall=True n=2 slab 32/32: leaves 9/684 gaps=0 nodes=37 contained=8 unordered=11 min_avail=1235MB peak_private=12.8MB
+[   45.7s] wall=True n=3 slab 1/32: leaves 1409/6382 gaps=0 nodes=16631 contained=7753 unordered=563 min_avail=1232MB peak_private=12.8MB
+[   46.5s] wall=True n=3 slab 2/32: leaves 1409/6382 gaps=0 nodes=16631 contained=7753 unordered=563 min_avail=1238MB peak_private=12.8MB
+[   47.6s] wall=True n=3 slab 3/32: leaves 1538/6382 gaps=0 nodes=25237 contained=11736 unordered=883 min_avail=1207MB peak_private=12.8MB
+[   48.6s] wall=True n=3 slab 4/32: leaves 1538/6382 gaps=0 nodes=25237 contained=11736 unordered=883 min_avail=1194MB peak_private=12.8MB
+[   49.7s] wall=True n=3 slab 5/32: leaves 1416/6382 gaps=0 nodes=22799 contained=10543 unordered=857 min_avail=1194MB peak_private=12.8MB
+[   50.7s] wall=True n=3 slab 6/32: leaves 1416/6382 gaps=0 nodes=20299 contained=9279 unordered=871 min_avail=1196MB peak_private=12.8MB
+[   51.2s] wall=True n=3 slab 7/32: leaves 1002/6382 gaps=0 nodes=10377 contained=4701 unordered=488 min_avail=1200MB peak_private=12.8MB
+[   51.7s] wall=True n=3 slab 8/32: leaves 1002/6382 gaps=0 nodes=10377 contained=4701 unordered=488 min_avail=1200MB peak_private=12.8MB
+[   52.1s] wall=True n=3 slab 9/32: leaves 714/6382 gaps=0 nodes=7995 contained=3591 unordered=407 min_avail=1195MB peak_private=12.8MB
+[   52.5s] wall=True n=3 slab 10/32: leaves 714/6382 gaps=0 nodes=6175 contained=2695 unordered=393 min_avail=1196MB peak_private=12.8MB
+[   52.8s] wall=True n=3 slab 11/32: leaves 487/6382 gaps=0 nodes=5261 contained=2285 unordered=346 min_avail=1198MB peak_private=12.8MB
+[   53.2s] wall=True n=3 slab 12/32: leaves 487/6382 gaps=0 nodes=5261 contained=2285 unordered=346 min_avail=1201MB peak_private=12.8MB
+[   53.5s] wall=True n=3 slab 13/32: leaves 323/6382 gaps=0 nodes=4137 contained=1771 unordered=298 min_avail=1204MB peak_private=12.8MB
+[   53.8s] wall=True n=3 slab 14/32: leaves 323/6382 gaps=0 nodes=3067 contained=1265 unordered=269 min_avail=1208MB peak_private=12.8MB
+[   54.0s] wall=True n=3 slab 15/32: leaves 181/6382 gaps=0 nodes=1053 contained=419 unordered=108 min_avail=1213MB peak_private=12.8MB
+[   54.2s] wall=True n=3 slab 16/32: leaves 181/6382 gaps=0 nodes=1053 contained=419 unordered=108 min_avail=1216MB peak_private=12.8MB
+[   54.3s] wall=True n=3 slab 17/32: leaves 145/6382 gaps=0 nodes=971 contained=380 unordered=106 min_avail=1216MB peak_private=12.8MB
+[   54.5s] wall=True n=3 slab 18/32: leaves 145/6382 gaps=0 nodes=397 contained=138 unordered=61 min_avail=1216MB peak_private=12.8MB
+[   54.7s] wall=True n=3 slab 19/32: leaves 91/6382 gaps=0 nodes=345 contained=120 unordered=53 min_avail=1216MB peak_private=12.8MB
+[   54.8s] wall=True n=3 slab 20/32: leaves 91/6382 gaps=0 nodes=345 contained=120 unordered=53 min_avail=1216MB peak_private=12.8MB
+[   54.9s] wall=True n=3 slab 21/32: leaves 19/6382 gaps=0 nodes=43 contained=16 unordered=6 min_avail=1237MB peak_private=12.8MB
+[   55.1s] wall=True n=3 slab 22/32: leaves 19/6382 gaps=0 nodes=43 contained=16 unordered=6 min_avail=1244MB peak_private=12.8MB
+[   55.2s] wall=True n=3 slab 23/32: leaves 19/6382 gaps=0 nodes=43 contained=16 unordered=6 min_avail=1245MB peak_private=12.8MB
+[   55.3s] wall=True n=3 slab 24/32: leaves 19/6382 gaps=0 nodes=43 contained=16 unordered=6 min_avail=1245MB peak_private=12.8MB
+[   55.4s] wall=True n=3 slab 25/32: leaves 15/6382 gaps=0 nodes=43 contained=16 unordered=6 min_avail=1241MB peak_private=12.8MB
+[   55.5s] wall=True n=3 slab 26/32: leaves 15/6382 gaps=0 nodes=23 contained=4 unordered=8 min_avail=1241MB peak_private=12.8MB
+[   55.6s] wall=True n=3 slab 27/32: leaves 15/6382 gaps=0 nodes=23 contained=4 unordered=8 min_avail=1241MB peak_private=12.8MB
+[   55.8s] wall=True n=3 slab 28/32: leaves 15/6382 gaps=0 nodes=23 contained=4 unordered=8 min_avail=1241MB peak_private=12.8MB
+[   55.9s] wall=True n=3 slab 29/32: leaves 16/6382 gaps=0 nodes=71 contained=14 unordered=22 min_avail=1241MB peak_private=12.8MB
+[   56.1s] wall=True n=3 slab 30/32: leaves 16/6382 gaps=0 nodes=53 contained=8 unordered=19 min_avail=1247MB peak_private=12.8MB
+[   56.2s] wall=True n=3 slab 31/32: leaves 16/6382 gaps=0 nodes=53 contained=8 unordered=19 min_avail=1247MB peak_private=12.8MB
+[   56.4s] wall=True n=3 slab 32/32: leaves 16/6382 gaps=0 nodes=53 contained=8 unordered=19 min_avail=1242MB peak_private=12.8MB
+[   61.9s] wall=True n=4 slab 1/32: leaves 4272/15224 gaps=0 nodes=112421 contained=48525 unordered=7686 min_avail=1173MB peak_private=12.8MB
+[   67.3s] wall=True n=4 slab 2/32: leaves 4271/15224 gaps=0 nodes=109603 contained=47249 unordered=7553 min_avail=1142MB peak_private=12.8MB
+[   74.0s] wall=True n=4 slab 3/32: leaves 4456/15224 gaps=0 nodes=131493 contained=56749 unordered=8998 min_avail=1148MB peak_private=12.9MB
+[   80.5s] wall=True n=4 slab 4/32: leaves 4457/15224 gaps=0 nodes=132839 contained=57333 unordered=9087 min_avail=1117MB peak_private=13.5MB
+STOPPED: available memory 1019 MB < floor 1024.0 MB (finished slabs saved)
+=== exit 3 at 23:15:59
+=== launch 7 at 23:19:12 avail=1394
+[limits] profile=v3 priority=Normal:True affinity=0xFFF:True memcap=1536MB:True
+start: avail 1389 MB, floor 1024.0 MB, slabs 32
+[    1.7s] wall=True n=4 slab 5/32: leaves 3785/15224 gaps=0 nodes=120189 contained=51108 unordered=8987 min_avail=1299MB peak_private=10.0MB
+[    4.1s] wall=True n=4 slab 6/32: leaves 3780/15224 gaps=0 nodes=102575 contained=43144 unordered=8144 min_avail=1292MB peak_private=10.9MB
+[    7.1s] wall=True n=4 slab 7/32: leaves 2446/15224 gaps=0 nodes=64061 contained=26490 unordered=5541 min_avail=1249MB peak_private=11.4MB
+[   10.6s] wall=True n=4 slab 8/32: leaves 2447/15224 gaps=0 nodes=64907 contained=26840 unordered=5614 min_avail=1232MB peak_private=11.9MB
+[   11.9s] wall=True n=4 slab 9/32: leaves 1623/15224 gaps=0 nodes=21551 contained=8721 unordered=2055 min_avail=1356MB peak_private=11.9MB
+[   13.0s] wall=True n=4 slab 10/32: leaves 1623/15224 gaps=0 nodes=13867 contained=5353 unordered=1581 min_avail=1385MB peak_private=12.1MB
+[   13.7s] wall=True n=4 slab 11/32: leaves 1085/15224 gaps=0 nodes=5913 contained=2240 unordered=717 min_avail=1424MB peak_private=12.3MB
+[   14.4s] wall=True n=4 slab 12/32: leaves 1085/15224 gaps=0 nodes=5913 contained=2240 unordered=717 min_avail=1424MB peak_private=12.5MB
+[   15.0s] wall=True n=4 slab 13/32: leaves 743/15224 gaps=0 nodes=3779 contained=1414 unordered=476 min_avail=1463MB peak_private=12.5MB
+[   15.4s] wall=True n=4 slab 14/32: leaves 743/15224 gaps=0 nodes=1847 contained=634 unordered=290 min_avail=1466MB peak_private=12.6MB
+[   15.9s] wall=True n=4 slab 15/32: leaves 513/15224 gaps=0 nodes=1847 contained=634 unordered=290 min_avail=1468MB peak_private=12.6MB
+[   16.4s] wall=True n=4 slab 16/32: leaves 513/15224 gaps=0 nodes=1847 contained=634 unordered=290 min_avail=1470MB peak_private=12.6MB
+[   16.8s] wall=True n=4 slab 17/32: leaves 403/15224 gaps=0 nodes=2237 contained=768 unordered=351 min_avail=1470MB peak_private=12.6MB
+[   17.2s] wall=True n=4 slab 18/32: leaves 403/15224 gaps=0 nodes=757 contained=222 unordered=157 min_avail=1443MB peak_private=12.6MB
+[   17.7s] wall=True n=4 slab 19/32: leaves 307/15224 gaps=0 nodes=657 contained=192 unordered=137 min_avail=1429MB peak_private=12.7MB
+[   18.1s] wall=True n=4 slab 20/32: leaves 307/15224 gaps=0 nodes=657 contained=192 unordered=137 min_avail=1431MB peak_private=12.7MB
+[   18.5s] wall=True n=4 slab 21/32: leaves 1/15224 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1435MB peak_private=12.7MB
+[   18.9s] wall=True n=4 slab 22/32: leaves 1/15224 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1434MB peak_private=12.7MB
+[   19.2s] wall=True n=4 slab 23/32: leaves 1/15224 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1447MB peak_private=12.7MB
+[   19.6s] wall=True n=4 slab 24/32: leaves 1/15224 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1493MB peak_private=12.7MB
+[   19.9s] wall=True n=4 slab 25/32: leaves 1/15224 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1540MB peak_private=12.7MB
+[   20.2s] wall=True n=4 slab 26/32: leaves 1/15224 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1550MB peak_private=12.7MB
+[   20.5s] wall=True n=4 slab 27/32: leaves 1/15224 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1538MB peak_private=12.7MB
+[   20.8s] wall=True n=4 slab 28/32: leaves 1/15224 gaps=0 nodes=1 contained=1 unordered=0 min_avail=1539MB peak_private=12.7MB
+[   21.2s] wall=True n=4 slab 29/32: leaves 31/15224 gaps=0 nodes=69 contained=11 unordered=24 min_avail=1534MB peak_private=12.7MB
+[   21.5s] wall=True n=4 slab 30/32: leaves 31/15224 gaps=0 nodes=69 contained=8 unordered=27 min_avail=1527MB peak_private=12.7MB
+[   21.9s] wall=True n=4 slab 31/32: leaves 31/15224 gaps=0 nodes=69 contained=8 unordered=27 min_avail=1526MB peak_private=12.7MB
+[   22.3s] wall=True n=4 slab 32/32: leaves 31/15224 gaps=0 nodes=69 contained=8 unordered=27 min_avail=1527MB peak_private=12.7MB
+[   35.0s] wall=True n=5 slab 1/32: leaves 8552/26014 gaps=0 nodes=224311 contained=88534 unordered=23622 min_avail=1549MB peak_private=14.9MB
+[   48.5s] wall=True n=5 slab 2/32: leaves 8552/26014 gaps=0 nodes=224311 contained=88534 unordered=23622 min_avail=2364MB peak_private=17.1MB
+[   58.5s] wall=True n=5 slab 3/32: leaves 8546/26014 gaps=0 nodes=153911 contained=59923 unordered=17033 min_avail=2396MB peak_private=17.9MB
+[   65.6s] wall=True n=5 slab 4/32: leaves 8546/26014 gaps=0 nodes=153911 contained=59923 unordered=17033 min_avail=2210MB peak_private=18.2MB
+[   68.1s] wall=True n=5 slab 5/32: leaves 6608/26014 gaps=0 nodes=114587 contained=44061 unordered=13233 min_avail=2213MB peak_private=19.1MB
+[   69.9s] wall=True n=5 slab 6/32: leaves 6608/26014 gaps=0 nodes=79271 contained=29467 unordered=10169 min_avail=2101MB peak_private=20.5MB
+[   71.0s] wall=True n=5 slab 7/32: leaves 5202/26014 gaps=0 nodes=40487 contained=15095 unordered=5149 min_avail=2168MB peak_private=21.0MB
+[   72.3s] wall=True n=5 slab 8/32: leaves 5202/26014 gaps=0 nodes=40487 contained=15095 unordered=5149 min_avail=2176MB peak_private=22.6MB
+[   74.6s] wall=True n=5 slab 9/32: leaves 3532/26014 gaps=0 nodes=23387 contained=8810 unordered=2884 min_avail=2194MB peak_private=22.6MB
+[   75.9s] wall=True n=5 slab 10/32: leaves 3532/26014 gaps=0 nodes=8451 contained=2866 unordered=1360 min_avail=2188MB peak_private=22.6MB
+[   77.4s] wall=True n=5 slab 11/32: leaves 2884/26014 gaps=0 nodes=8451 contained=2866 unordered=1360 min_avail=2204MB peak_private=23.1MB
+[   78.9s] wall=True n=5 slab 12/32: leaves 2884/26014 gaps=0 nodes=8451 contained=2866 unordered=1360 min_avail=2212MB peak_private=23.9MB
+[   80.2s] wall=True n=5 slab 13/32: leaves 1933/26014 gaps=0 nodes=7565 contained=2560 unordered=1223 min_avail=2215MB peak_private=23.9MB
+[   81.2s] wall=True n=5 slab 14/32: leaves 1933/26014 gaps=0 nodes=3939 contained=1290 unordered=680 min_avail=2194MB peak_private=24.2MB
+[   82.5s] wall=True n=5 slab 15/32: leaves 1675/26014 gaps=0 nodes=3939 contained=1290 unordered=680 min_avail=2179MB peak_private=24.2MB
+[   83.6s] wall=True n=5 slab 16/32: leaves 1675/26014 gaps=0 nodes=3939 contained=1290 unordered=680 min_avail=2172MB peak_private=24.5MB
+[   85.0s] wall=True n=5 slab 17/32: leaves 1195/26014 gaps=0 nodes=4789 contained=1568 unordered=827 min_avail=2168MB peak_private=24.5MB
+[   85.9s] wall=True n=5 slab 18/32: leaves 1195/26014 gaps=0 nodes=1369 contained=390 unordered=295 min_avail=2150MB peak_private=24.7MB
+[   86.8s] wall=True n=5 slab 19/32: leaves 991/26014 gaps=0 nodes=1185 contained=336 unordered=257 min_avail=2160MB peak_private=24.9MB
+[   87.7s] wall=True n=5 slab 20/32: leaves 991/26014 gaps=0 nodes=1185 contained=336 unordered=257 min_avail=2160MB peak_private=25.1MB
+[   88.5s] wall=True n=5 slab 21/32: leaves 163/26014 gaps=0 nodes=187 contained=64 unordered=30 min_avail=2172MB peak_private=25.1MB
+[   89.3s] wall=True n=5 slab 22/32: leaves 163/26014 gaps=0 nodes=187 contained=64 unordered=30 min_avail=2166MB peak_private=25.1MB
+[   90.1s] wall=True n=5 slab 23/32: leaves 163/26014 gaps=0 nodes=187 contained=64 unordered=30 min_avail=2173MB peak_private=25.1MB
+[   90.8s] wall=True n=5 slab 24/32: leaves 163/26014 gaps=0 nodes=187 contained=64 unordered=30 min_avail=2178MB peak_private=25.1MB
+[   91.5s] wall=True n=5 slab 25/32: leaves 123/26014 gaps=0 nodes=187 contained=64 unordered=30 min_avail=2121MB peak_private=25.1MB
+[   92.4s] wall=True n=5 slab 26/32: leaves 123/26014 gaps=0 nodes=39 contained=4 unordered=16 min_avail=1995MB peak_private=25.1MB
+[   93.1s] wall=True n=5 slab 27/32: leaves 123/26014 gaps=0 nodes=39 contained=4 unordered=16 min_avail=2006MB peak_private=25.1MB
+[   93.8s] wall=True n=5 slab 28/32: leaves 123/26014 gaps=0 nodes=39 contained=4 unordered=16 min_avail=1973MB peak_private=25.1MB
+[   94.5s] wall=True n=5 slab 29/32: leaves 112/26014 gaps=0 nodes=127 contained=14 unordered=50 min_avail=2007MB peak_private=25.1MB
+[   95.3s] wall=True n=5 slab 30/32: leaves 112/26014 gaps=0 nodes=85 contained=8 unordered=35 min_avail=2003MB peak_private=25.1MB
+[   96.0s] wall=True n=5 slab 31/32: leaves 112/26014 gaps=0 nodes=85 contained=8 unordered=35 min_avail=2017MB peak_private=25.1MB
+[   96.8s] wall=True n=5 slab 32/32: leaves 112/26014 gaps=0 nodes=85 contained=8 unordered=35 min_avail=1929MB peak_private=25.1MB
+FINISHED
+=== exit 0 at 23:20:49
