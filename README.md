@@ -86,6 +86,6 @@ Developed with extensive assistance from Claude (Anthropic), including the proof
 
 ## How to cite
 
-Ryu, Sungjoon. *Packing k²−c unit squares: s(k²−c) = k for all large k.* Preprint, version 1.1, 2026. DOI (v1.1): added after the release. DOI (v1.0): https://doi.org/10.5281/zenodo.23164302
+Ryu, Sungjoon. *Packing k²−c unit squares: s(k²−c) = k for all large k.* Preprint, version 1.1, 2026. DOI (v1.1): https://doi.org/10.5281/zenodo.23165736. DOI (v1.0): https://doi.org/10.5281/zenodo.23164302
 
 DOI (all versions, always the latest): https://doi.org/10.5281/zenodo.23164301
