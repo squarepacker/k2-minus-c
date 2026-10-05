@@ -1,20 +1,20 @@
 {
-  "title": "For every fixed c, s(k^2-c) = k for all large k, with an explicit constant (preprint)",
-  "upload_type": "software",
-  "description": "Licences in this single record: the preprint (paper/paper.pdf, paper/paper.tex) is licensed under CC BY 4.0; the programs and data (code/, data/) under the MIT License, which is the licence shown for the record. Preprint with verification programs. For every fixed c, s(k^2-c) = k for all sufficiently large k, where s(n) is the side of the smallest square containing n non-overlapping unit squares. Explicitly: every packing of N unit squares in [0,k]^2 that are pairwise disjoint as closed sets has k^2 - N >= 0.033 log k for every integer k >= 2 (0.027 log k without the computer-assisted Lemma 4.10). Lemma 4.10 is a branch-and-bound computation re-verified in Arb ball arithmetic; its programs, data and logs are included. Use of AI: developed with extensive assistance from Claude (Anthropic), including the proofs, the text, the programs and the computation for Lemma 4.10; the author takes full responsibility. Not peer reviewed.",
-  "notes": "Licences: paper/paper.tex and paper/paper.pdf under CC BY 4.0 (see paper/LICENSE); programs in code/ and data in data/ under the MIT License (see LICENSE). The licence field of this record refers to the software (MIT).",
-  "creators": [
-    {
-      "name": "Ryu, Sungjoon"
-    }
-  ],
-  "license": "MIT",
-  "keywords": [
-    "square packing",
-    "unit squares",
-    "wasted area",
-    "Roth-Vaughan",
-    "c*(k)"
-  ],
-  "version": "1.0"
+"title": "For every fixed c, s(k^2-c) = k for all large k, with an explicit constant (preprint)",
+"upload_type": "software",
+"description": "Licences in this single record: the preprint (paper/paper.pdf, paper/paper.tex) is licensed under CC BY 4.0; the programs and data (code/, data/) under the MIT License, which is the licence shown for the record. Preprint with verification programs. For every fixed c, s(k^2-c) = k for all sufficiently large k, where s(n) is the side of the smallest square containing n non-overlapping unit squares. Explicitly: every packing of N unit squares in [0,k]^2 that are pairwise disjoint as closed sets has k^2 - N >= 0.033 log k for every integer k >= 2 (0.027 log k without the computer-assisted Lemma 4.10). Lemma 4.10 is a branch-and-bound computation re-verified in Arb ball arithmetic; its programs, data and logs are included. Version 1.1 adds two independent checks that the accepted boxes cover the parameter domain. Use of AI: developed with extensive assistance from Claude (Anthropic), including the proofs, the text, the programs and the computation for Lemma 4.10; the author takes full responsibility. Not peer reviewed.",
+"notes": "Licences: paper/paper.tex and paper/paper.pdf under CC BY 4.0 (see paper/LICENSE); programs in code/ and data in data/ under the MIT License (see LICENSE). The licence field of this record refers to the software (MIT).",
+"creators": [
+{
+"name": "Ryu, Sungjoon"
+}
+],
+"license": "MIT",
+"keywords": [
+"square packing",
+"unit squares",
+"wasted area",
+"Roth-Vaughan",
+"c*(k)"
+],
+"version": "1.1"
 }
