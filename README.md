@@ -98,7 +98,7 @@ Developed with extensive assistance from Claude (Anthropic), including the proof
 
 Ryu, Sungjoon. *Packing k²−c unit squares: s(k²−c) = k for all large k.* Preprint, version 1.2, 2026.
 
-- This repository (software record on Zenodo): DOI (v1.2): added after the release. DOI (v1.1): https://doi.org/10.5281/zenodo.23165736. DOI (v1.0): https://doi.org/10.5281/zenodo.23164302
-- The paper alone (PDF record on Zenodo): all versions https://doi.org/10.5281/zenodo.23165915; version 1.1: https://doi.org/10.5281/zenodo.23165916; version 1.2: added after the release.
+- This repository (software record on Zenodo): DOI (v1.2): https://doi.org/10.5281/zenodo.23194031. DOI (v1.1): https://doi.org/10.5281/zenodo.23165736. DOI (v1.0): https://doi.org/10.5281/zenodo.23164302
+- The paper alone (PDF record on Zenodo): all versions https://doi.org/10.5281/zenodo.23165915; version 1.1: https://doi.org/10.5281/zenodo.23165916; version 1.2: https://doi.org/10.5281/zenodo.23194104.
 
 Software record, all versions (always the latest): https://doi.org/10.5281/zenodo.23164301
